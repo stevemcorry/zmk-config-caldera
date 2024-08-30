@@ -30,10 +30,10 @@
 // |       |       |       |       |       |       |          |  SPC  |   0   |   .   |  ENT  |   /   |       |
                         bindings = <
    &trans    &trans      &trans      &trans         &trans         &trans                 &kp DQT     &trans    &trans   &trans   &trans  &bt BT_CLR
-   &trans    &trans      &trans      &kp LBRC       &kp RBRC       &trans                 &kp SQT     &kp N7    &kp N8   &kp N9   &STAR   &trans
-   &trans    &trans      &trans      &kp LPAR       &kp RPAR       &trans                 &kp EXCL    &kp N4    &kp N5   &kp N6   &PLUS   &trans
-   &trans    &trans      &trans      &kp LBKT       &kp RBKT       &trans                 &kp QMARK   &kp N1    &kp N2   &kp N3   &MINUS  &trans
-   &trans    &trans      &trans      &trans         &trans         &trans                 &trans      &trans    &trans   &trans   &FSLH   &trans
+   &trans    &trans      &trans      &kp LBRC       &kp RBRC       &trans                 &kp SQT     &kp N7    &kp N8   &kp N9   &kp STAR   &trans
+   &trans    &trans      &trans      &kp LPAR       &kp RPAR       &trans                 &kp EXCL    &kp N4    &kp N5   &kp N6   &kp PLUS   &trans
+   &trans    &trans      &trans      &kp LBKT       &kp RBKT       &trans                 &kp QMARK   &kp N1    &kp N2   &kp N3   &kp MINUS  &trans
+   &trans    &trans      &trans      &trans         &trans         &trans                 &trans      &trans    &trans   &trans   &kp FSLH   &trans
                         >;
                 };
                 lowest_layer {
