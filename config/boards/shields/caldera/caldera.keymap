@@ -27,13 +27,13 @@
 // |   ~   |   @   |   %   |   {   |   }   |   =   |          |   '   |   7   |   8   |   9   |   *   |       |
 // |       |   &   |   $   |   (   |   )   |   *   |          |   !   |   4   |   5   |   6   |   +   |       |
 // |       |   ^   |   #   |   [   |   ]   |   _   |          |   ?   |   1   |   2   |   3   |   -   |       |
-// |       |       |       |       |  LOW  |       |          |  SPC  |   0   |   .   |  ENT  |   /   |   \   |
+// | REDO  |       |       |       |  LOW  |       |          |  SPC  |   0   |   .   |  ENT  |   /   |   \   |
                         bindings = <
    &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &kp LT         &kp GT         &kp PIPE               &kp DQT     &trans    &trans   &trans   &sl 0      &sl 0
    &kp TILDE   &kp AT         &kp PRCNT      &kp LBRC       &kp RBRC       &kp EQUAL              &kp SQT     &kp N7    &kp N8   &kp N9   &kp STAR   &trans
    &trans      &kp AMPS       &kp DLLR       &kp LPAR       &kp RPAR       &kp STAR               &kp EXCL    &kp N4    &kp N5   &kp N6   &kp PLUS   &trans
    &trans      &kp CARET      &kp HASH       &kp LBKT       &kp RBKT       &kp UNDER              &kp QMARK   &kp N1    &kp N2   &kp N3   &kp MINUS  &trans
-   &trans      &trans         &trans         &trans         &trans         &trans                 &trans      &kp N0    &kp DOT  &kp RET  &kp FSLH   &trans
+   &kp K_REDO  &trans         &trans         &trans         &trans         &trans                 &trans      &kp N0    &kp DOT  &kp RET  &kp FSLH   &trans
                         >;
                 };
         };
