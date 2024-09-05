@@ -12,13 +12,13 @@
 // |   `  |  Q  |  W  |  E  |  R  |  T   |     |  Y  |  U  |  I  |  O  |  P  |  '   |
 // |  TAB |  A  |  S  |  D  |  F  |  G   |     |  H  |  J  |  K  |  L  |  ;  |  ENT |
 // | SHFT |  Z  |  X  |  C  |  V  |  B   |     |  N  |  M  |  ,  |  .  |  /  | UARW |
-// | UNDO | CTRL| ALT |COMD | LOW | SHFT |     | SPC | BKSP| CTRL|LARW |RARW | DARW |
+// |  0   | CTRL| ALT |COMD | LOW | SHFT |     | SPC | BKSP| CTRL|LARW |RARW | DARW |
                         bindings = <
    &kp ESC        &kp N1     &kp N2    &kp N3     &kp N4     &kp N5               &kp N6     &kp N7    &kp N8      &kp N9    &sl N0     &kp DEL
    &kp GRAVE      &kp Q      &kp W     &kp E      &kp R      &kp T                &kp Y      &kp U     &kp I       &kp O     &kp P     &kp APOS
    &kp TAB        &kp A      &kp S     &kp D      &kp F      &kp G                &kp H      &kp J     &kp K       &kp L     &kp SEMI  &kp RET
    &kp LSHFT      &kp Z      &kp X     &kp C      &kp V      &kp B                &kp N      &kp M     &kp COMMA   &kp DOT   &kp FSLH  &kp UARW
-   &kp C_AC_UNDO  &kp LCTRL  &kp LALT  &kp LGUI   &mo 1      &kp LSHFT            &kp SPACE  &kp BSPC  &kp RCTRL   &kp LARW  &kp RARW  &kp DARW
+   &kp 0          &kp LCTRL  &kp LALT  &kp LGUI   &mo 1      &kp LSHFT            &kp SPACE  &kp BSPC  &kp RCTRL   &kp LARW  &kp RARW  &kp DARW
                         >;
                 };
                 lower_layer {
@@ -27,13 +27,13 @@
 // |   ~   |   @   |   %   |   {   |   }   |   =   |          |   '   |   7   |   8   |   9   |   *   |       |
 // |       |   &   |   $   |   (   |   )   |   *   |          |   !   |   4   |   5   |   6   |   +   |       |
 // |       |   ^   |   #   |   [   |   ]   |   _   |          |   ?   |   1   |   2   |   3   |   -   |       |
-// | REDO  |       |       |       |  LOW  |       |          |  SPC  |   0   |   .   |  ENT  |   /   |   \   |
+// | 1     |       |       |       |  LOW  |       |          |  SPC  |   0   |   .   |  ENT  |   /   |   \   |
                         bindings = <
-   &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1   &kp LT         &kp GT         &kp PIPE            &kp DQT     &trans    &trans   &trans   &sl 0      &sl 0
-   &kp TILDE      &kp AT         &kp PRCNT      &kp LBRC       &kp RBRC       &kp EQUAL           &kp SQT     &kp N7    &kp N8   &kp N9   &kp STAR   &trans
-   &trans         &kp AMPS       &kp DLLR       &kp LPAR       &kp RPAR       &kp STAR            &kp EXCL    &kp N4    &kp N5   &kp N6   &kp PLUS   &trans
-   &trans         &kp CARET      &kp HASH       &kp LBKT       &kp RBKT       &kp UNDER           &kp QMARK   &kp N1    &kp N2   &kp N3   &kp MINUS  &trans
-   &kp C_AC_REDO  &trans         &trans         &trans         &trans         &kp K_CUT           &trans      &kp N0    &kp DOT  &kp RET  &kp FSLH   &trans
+   &bt BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1   &kp LT         &kp GT         &kp PIPE            &kp DQT     &trans    &trans   &trans   &sl 0      &sl 0
+   &kp TILDE     &kp AT         &kp PRCNT      &kp LBRC       &kp RBRC       &kp EQUAL           &kp SQT     &kp N7    &kp N8   &kp N9   &kp STAR   &trans
+   &trans        &kp AMPS       &kp DLLR       &kp LPAR       &kp RPAR       &kp STAR            &kp EXCL    &kp N4    &kp N5   &kp N6   &kp PLUS   &trans
+   &trans        &kp CARET      &kp HASH       &kp LBKT       &kp RBKT       &kp UNDER           &kp QMARK   &kp N1    &kp N2   &kp N3   &kp MINUS  &trans
+   &kp 1         &trans         &trans         &trans         &trans         &kp K_CUT           &trans      &kp N0    &kp DOT  &kp RET  &kp FSLH   &trans
                         >;
                 };
         };
