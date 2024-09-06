@@ -14,11 +14,11 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B   |     |  N  |  M  |  ,  |  .  |  /  | UARW |
 // |  0   | CTRL| ALT |COMD | LOW | SHFT |     | SPC | BKSP| CTRL|LARW |RARW | DARW |
                         bindings = <
-   &kp ESC        &kp N1     &kp N2    &kp N3     &kp N4     &kp N5               &kp N6     &kp N7    &kp N8      &kp N9    &kp N0     &kp DEL
+   &kp ESC        &kp N1     &kp N2    &kp N3     &kp N4     &kp N5               &kp N6     &kp N7    &kp N8      &kp N9    &kp N0    &kp DEL
    &kp GRAVE      &kp Q      &kp W     &kp E      &kp R      &kp T                &kp Y      &kp U     &kp I       &kp O     &kp P     &kp APOS
    &kp TAB        &kp A      &kp S     &kp D      &kp F      &kp G                &kp H      &kp J     &kp K       &kp L     &kp SEMI  &kp RET
    &kp LSHFT      &kp Z      &kp X     &kp C      &kp V      &kp B                &kp N      &kp M     &kp COMMA   &kp DOT   &kp FSLH  &kp UARW
-   &kp TAB        &kp LCTRL  &kp LALT  &kp LGUI   &mo 1      &kp LSHFT            &kp SPACE  &kp BSPC  &mo 2       &kp LARW  &kp RARW  &kp DARW
+   &kp TAB        &kp LCTRL  &kp LALT  &kp LGUI   &mo 1      &kp LSHFT            &kp SPACE  &kp BSPC  &tog 2      &kp LARW  &kp RARW  &kp DARW
                         >;
                 };
                 lower_layer {
@@ -38,17 +38,17 @@
                 };
                 lowest_layer {
 // ------------------------------------------------------------------------------------------------------------
-// | BTCLR |  BT1  |  BT2  |   <   |   >   |   |   |          |   "   |       |       |       |   =   |       |
-// |   ~   |   @   |   %   |   {   |   }   |   =   |          |   '   |   7   |   8   |   9   |   *   |       |
-// |       |   &   |   $   |   (   |   )   |   *   |          |   !   |   4   |   5   |   6   |   +   |       |
-// |       |   ^   |   #   |   [   |   ]   |   _   |          |   ?   |   1   |   2   |   3   |   -   |       |
+// |  esc  |   1   |   2   |   3   |   4   |   5   |          |   6   |   7   |   8   |   9   |   0   |       |
+// |   ~   |   @   |   Q   |  up   |   E   |   F   |          |   '   |   7   |   8   |   9   |   *   |       |
+// |       | shift |  left |  down | right |   *   |          |   !   |   4   |   5   |   6   |   +   |       |
+// |       |  CTRL |   #   |   [   |   ]   |   _   |          |   ?   |   1   |   2   |   3   |   -   |       |
 // | 1     |       |       |       |  LOW  |       |          |  SPC  |   0   |   .   |  ENT  |   /   |   \   |
                         bindings = <
-   &bt BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1   &kp LT         &kp GT         &kp PIPE            &kp DQT     &trans    &trans   &trans   &sl 0      &sl 0
-   &kp TILDE     &kp AT         &kp PRCNT      &kp LBRC       &kp RBRC       &kp EQUAL           &kp SQT     &kp N7    &kp N8   &kp N9   &kp STAR   &trans
-   &trans        &kp AMPS       &kp DLLR       &kp LPAR       &kp RPAR       &kp STAR            &kp EXCL    &kp N4    &kp N5   &kp N6   &kp PLUS   &trans
-   &trans        &kp CARET      &kp HASH       &kp LBKT       &kp RBKT       &kp UNDER           &kp QMARK   &kp N1    &kp N2   &kp N3   &kp MINUS  &trans
-   &kp TAB       &trans         &trans         &trans         &trans         &kp CAPS            &trans      &kp N0    &kp DOT  &kp RET  &kp FSLH   &trans
+   &kp ESC       &kp N1         &kp N2       &kp N3       &kp N4       &kp N5              &kp N6      &kp N7    &kp N8   &kp N9   &kp N0     &kp DEL
+   &kp TILDE     &kp AT         &kp Q        &kp UARW     &kp E        &kp F               &kp SQT     &kp N7    &kp N8   &kp N9   &kp STAR   &trans
+   &trans        &kp LSHFT      &kp LARW     &kp DARW     &kp RARW     &kp STAR            &kp EXCL    &kp N4    &kp N5   &kp N6   &kp PLUS   &trans
+   &trans        &kp LCTRL      &kp HASH     &kp LBKT     &kp RBKT     &kp UNDER           &kp QMARK   &kp N1    &kp N2   &kp N3   &kp MINUS  &trans
+   &kp TAB       &trans         &trans       &trans       &trans       &kp CAPS            &trans      &kp N0    &tog 2   &kp RET  &kp FSLH   &trans
                         >;
                 };
         };
