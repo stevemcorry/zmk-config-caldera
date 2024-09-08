@@ -23,13 +23,13 @@
                 };
                 lower_layer {
 // ------------------------------------------------------------------------------------------------------------
-// | BTCLR |  BT1  |  BT2  |   <   |   >   |   |   |          |   "   |       |       |       |   =   |       |
+// | BTCLR |   -   |   \   |   <   |   >   |   |   |          |   "   |       |       |       |   =   |       |
 // |   ~   |   @   |   %   |   {   |   }   |   =   |          |   '   |   7   |   8   |   9   |   *   |       |
 // |  TAB  |   &   |   $   |   (   |   )   |   *   |          |   !   |   4   |   5   |   6   |   +   |       |
 // |  SHFT |   ^   |   #   |   [   |   ]   |   _   |          |   ?   |   1   |   2   |   3   |   -   |       |
 // | 1     |       |       |       |  LOW  |       |          |  SPC  |   0   |   .   |  ENT  |   /   |   \   |
                         bindings = <
-   &bt BT_CLR  &bt MINUS  &bt BSLH   &kp LT    &kp GT    &kp PIPE            &kp DQT     &trans    &trans   &trans   &sl 0      &tog 2
+   &bt BT_CLR  &kp MINUS  &kp BSLH   &kp LT    &kp GT    &kp PIPE            &kp DQT     &trans    &trans   &trans   &trans     &tog 2
    &kp TILDE   &kp AT     &kp PRCNT  &kp LBRC  &kp RBRC  &kp EQUAL           &kp SQT     &kp N7    &kp N8   &kp N9   &kp STAR   &trans
    &trans      &kp AMPS   &kp DLLR   &kp LPAR  &kp RPAR  &kp STAR            &kp EXCL    &kp N4    &kp N5   &kp N6   &kp PLUS   &trans
    &trans      &kp CARET  &kp HASH   &kp LBKT  &kp RBKT  &kp UNDER           &kp QMARK   &kp N1    &kp N2   &kp N3   &kp MINUS  &trans
