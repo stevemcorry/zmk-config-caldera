@@ -29,11 +29,11 @@
 // |  SHFT |   ^   |   #   |   [   |   ]   |   _   |          |   ?   |   1   |   2   |   3   |   -   |       |
 // | 1     |       |       |       |  LOW  |       |          |  SPC  |   0   |   .   |  ENT  |   /   |   \   |
                         bindings = <
-   &bt BT_CLR  &kp MINUS  &kp BSLH   &kp LT    &kp GT    &kp PIPE            &kp DQT     &trans    &trans   &trans   &trans     &trans
-   &kp TILDE   &kp AT     &kp PRCNT  &kp LBRC  &kp RBRC  &kp EQUAL           &kp SQT     &kp N7    &kp N8   &kp N9   &kp STAR   &trans
-   &trans      &kp AMPS   &kp DLLR   &kp LPAR  &kp RPAR  &kp STAR            &kp EXCL    &kp N4    &kp N5   &kp N6   &kp PLUS   &trans
-   &trans      &kp CARET  &kp HASH   &kp LBKT  &kp RBKT  &kp UNDER           &kp QMARK   &kp N1    &kp N2   &kp N3   &kp MINUS  &trans
-   &kp TAB     &trans     &trans     &trans    &trans    &trans              &trans      &kp N0    &kp DOT  &kp RET  &kp FSLH   &to 2
+   &bt BT_CLR  &kp MINUS  &kp BSLH   &kp LT    &kp GT    &kp PIPE            &kp DQT    &trans  &trans   &trans   &trans     &trans
+   &kp TILDE   &kp AT     &kp PRCNT  &kp LBRC  &kp RBRC  &kp EQUAL           &kp SQT    &kp N7  &kp N8   &kp N9   &kp STAR   &trans
+   &trans      &kp AMPS   &kp DLLR   &kp LPAR  &kp RPAR  &kp STAR            &kp EXCL   &kp N4  &kp N5   &kp N6   &kp PLUS   &trans
+   &trans      &kp CARET  &kp HASH   &kp LBKT  &kp RBKT  &kp UNDER           &kp QMARK  &kp N1  &kp N2   &kp N3   &kp MINUS  &trans
+   &kp TAB     &trans     &trans     &trans    &trans    &trans              &trans     &kp N0  &kp DOT  &kp RET  &kp FSLH   &to 2
                         >;
                 };
                 lowest_layer {
@@ -48,7 +48,7 @@
    &kp N1   &kp TAB    &kp Q   &kp W   &kp E   &kp R             &kp T      &kp Y     &kp UARW   &kp I      &kp O    &kp P
    &kp N2   &kp LSHFT  &kp A   &kp S   &kp D   &kp F             &kp G      &kp LARW  &kp DARW   &kp RARW   &kp L    &trans
    &kp N3   &kp LCTRL  &kp Z   &kp X   &kp C   &kp V             &kp B      &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH
-   &kp N4   &trans     &trans  &trans  &trans  &trans            &kp SPACE  &kp BSPC  &kp RCTRL  &trans     &trans   &to 0
+   &kp N4   &trans     &trans  &trans  &trans  &SPACE            &kp SPACE  &kp BSPC  &kp RCTRL  &trans     &trans   &to 0
                         >;
                 };
         };
