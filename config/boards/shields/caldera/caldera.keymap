@@ -8,11 +8,11 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------------------------------------------
-// |  ESC |  1  |  2  |  3  |  4  |  5   |                                   |  6  |  7  |  8  |  9  |  0  | DEL  |
-// |   `  |  Q  |  W  |  E  |  R  |  T   |                                   |  Y   |  U  |  I  |  O  |  P  |  '   |
-// |  TAB |  A  |  S  |  D  |  F  |  G   |                                   |  H   |  J  |  K  |  L  |  ;  |  ENT |
-// | SHFT |  Z  |  X  |  C  |  V  |  B   |                                   |  N   |  M  |  ,  |  .  |  /  | UARW |
-// | CAPS | CTRL| ALT | WIN | SHFT|L1 SPC|                                   |L2 SPC| BKSP| CTRL|LARW |RARW | DARW |
+// |  ESC |   1  |   2   |   3   |   4  |    5   |                           |    6   |  7   |  8   |   9  |   0  | DEL  |
+// |   `  |   Q  |   W   |   E   |   R  |    T   |                           |    Y   |  U   |  I   |   O  |   P  |  '   |
+// |  TAB |   A  |   S   |   D   |   F  |    G   |                           |    H   |  J   |  K   |   L  |   ;  |  ENT |
+// | SHFT |   Z  |   X   |   C   |   V  |    B   |                           |    N   |  M   |  ,   |   .  |   /  | UARW |
+// | CAPS | CTRL |  ALT  |  WIN  | SHFT | L1 SPC |                           | L2 SPC | BKSP | CTRL | LARW | RARW | DARW |
                         bindings = <
    &kp ESC    &kp N1     &kp N2    &kp N3    &kp N4     &kp N5               &kp N6       &kp N7    &kp N8     &kp N9    &kp N0    &kp DEL
    &kp GRAVE  &kp Q      &kp W     &kp E     &kp R      &kp T                &kp Y        &kp U     &kp I      &kp O     &kp P     &kp APOS
@@ -27,7 +27,7 @@
 // |   ~   |   @   |   %   |   {   |   }   |   =   |                        |   '   |   4   |   5   |   6   |   +   |       |
 // |  TAB  |   &   |   $   |   (   |   )   |   *   |                        |   !   |   1   |   2   |   3   |   -   |       |
 // |  SHFT |   ^   |   #   |   [   |   ]   |   _   |                        |   ?   |   0   |   .   |  ENT  |   =   |   L0  |
-// | 1     |       |       |       |  SHFT |  SPC  |                        |  SPC  |  BKSP |   WIN |  ENT  |   /   |   L2   |
+// |   1   |       |       |       |  SHFT |  SPC  |                        |  SPC  |  BKSP |   WIN |  ENT  |   /   |   L2   |
                         bindings = <
    &bt BT_CLR  &kp MINUS  &kp BSLH   &kp LT    &kp GT    &kp PIPE            &kp DQT    &kp N7  &kp N8    &kp N9   &kp STAR   &trans
    &kp TILDE   &kp AT     &kp PRCNT  &kp LBRC  &kp RBRC  &kp EQUAL           &kp SQT    &kp N4  &kp N5    &kp N6   &kp PLUS   &trans
@@ -38,11 +38,11 @@
                 };
                 lowest_layer {
 // ----------------------------------------------------------------------------------------------------------
-// |  ESC |  1  |  2  |  3  |  4  |  5  |                        |  6  |  7  |  8  |  9  |  0  | DEL |
-// |  1   | TAB |  Q  |  W  |  E  |  R  |                        |  T  |  Y  | UP  |  I  |  O  |  P  |
-// |  2   | SFT |  A  |  S  |  D  |  F  |                        |  G  |LEFT |DOWN |RIGHT|  L  | ENT |
-// |  3   | CTL |  Z  |  X  |  C  |  V  |                        |  B  |  N  |  M  |  ,  |  .  |  L1 |
-// |  4   | CTL | ALT | WIN | SHFT| SPC |                        | SPC | BKSP| CTRL|LARW |RARW | L0  |
+// |  ESC |  1  |  2  |  3  |  4   |  5  |                        |  6  |   7  |   8  |   9   |   0  | DEL |
+// |  1   | TAB |  Q  |  W  |  E   |  R  |                        |  T  |   Y  |  UP  |   I   |   O  |  P  |
+// |  2   | SFT |  A  |  S  |  D   |  F  |                        |  G  | LEFT | DOWN | RIGHT |   L  | ENT |
+// |  3   | CTL |  Z  |  X  |  C   |  V  |                        |  B  |   N  |   M  |   ,   |   .  | L1  |
+// |  4   | CTL | ALT | WIN | SHFT | SPC |                        | SPC | BKSP | CTRL | LARW  | RARW | L0  |
                         bindings = <
    &kp ESC  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5            &kp N6     &kp N7    &kp N8     &kp N9     &kp N0   &kp DEL
    &kp N1   &kp TAB    &kp Q   &kp W   &kp E   &kp R             &kp T      &kp Y     &kp UARW   &kp I      &kp O    &kp P
