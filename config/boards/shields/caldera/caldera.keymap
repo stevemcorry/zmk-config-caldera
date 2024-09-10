@@ -48,7 +48,7 @@
    &kp N1   &kp TAB    &kp Q   &kp W   &kp E   &kp R             &kp T      &kp Y     &kp UARW   &kp I      &kp O    &kp P
    &kp N2   &kp LSHFT  &kp A   &kp S   &kp D   &kp F             &kp G      &kp LARW  &kp DARW   &kp RARW   &kp L    &trans
    &kp N3   &kp LCTRL  &kp Z   &kp X   &kp C   &kp V             &kp B      &kp N     &kp M      &kp COMMA  &kp DOT  &to 1
-   &kp N4   &trans     &trans  &trans  &trans  &SPACE            &kp SPACE  &kp BSPC  &kp RCTRL  &trans     &trans   &to 0
+   &kp N4   &trans     &trans  &trans  &trans  &kp SPACE         &kp SPACE  &kp BSPC  &kp RCTRL  &trans     &trans   &to 0
                         >;
                 };
         };
