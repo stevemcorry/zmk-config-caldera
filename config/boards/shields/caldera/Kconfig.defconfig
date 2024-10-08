@@ -1,7 +1,7 @@
 if SHIELD_CALDERA_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Caldera Mac Clicky"
+    default "Caldera Clicky"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
