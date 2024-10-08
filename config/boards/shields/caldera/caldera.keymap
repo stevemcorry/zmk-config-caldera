@@ -8,17 +8,17 @@
 
                 default_layer {
 // --------------------------------------------------------------------------------------------------------------------------
-// |  ESC  |   1   |   2   |   3   |   4   |    5  |                        |    6  |   7   |   8   |   9   |   0   |  DEL  |
-// |   `   |   Q   |   W   |   E   |   R   |    T  |                        |    Y  |   U   |   I   |   O   |   P   |   '   |
-// |  TAB  |   A   |   S   |   D   |   F   |    G  |                        |    H  |   J   |   K   |   L   |   ;   |  ENT  |
-// |  SHFT |   Z   |   X   |   C   |   V   |    B  |                        |    N  |   M   |   ,   |   .   |   /   |  UARW |
-// |  CAPS |  CTRL |  ALT  |  WIN  |  SHFT | L1/SPC|                        | L2/SPC|  BKSP |  CTRL |  LARW |  RARW |  DARW |
+// |  ESC  |   1   |   2   |   3   |   4   |    5  |                             |    6  |   7   |   8   |   9   |   0   |  DEL  |
+// |   `   |   Q   |   W   |   E   |   R   |    T  |                             |    Y  |   U   |   I   |   O   |   P   |   '   |
+// |  TAB  |   A   |   S   |   D   |   F   |    G  |                             |    H  |   J   |   K   |   L   |   ;   |  ENT  |
+// |  SHFT |   Z   |   X   |   C   |   V   |    B  |                             |    N  |   M   |   ,   |   .   |   /   |  UARW |
+// |  CAPS |  CTRL |  ALT  |  WIN  |SHF/BKP| L1/SPC|                             | L2/SPC|SHF/BKP|  CTRL |  ALT  |  WIN  |  DARW |
                         bindings = <
-   &kp ESC    &kp N1     &kp N2    &kp N3    &kp N4     &kp N5               &kp N6       &kp N7    &kp N8     &kp N9    &kp N0    &kp DEL
-   &kp GRAVE  &kp Q      &kp W     &kp E     &kp R      &kp T                &kp Y        &kp U     &kp I      &kp O     &kp P     &kp APOS
-   &kp TAB    &kp A      &kp S     &kp D     &kp F      &kp G                &kp H        &kp J     &kp K      &kp L     &kp SEMI  &kp RET
-   &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                &kp N        &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp UARW
-   &kp CAPS   &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &lt 1 SPACE          &lt 2 SPACE  &kp BSPC  &kp RCTRL  &kp LARW  &kp RARW  &kp DARW
+   &kp ESC    &kp N1     &kp N2    &kp N3    &kp N4          &kp N5               &kp N6       &kp N7          &kp N8     &kp N9    &kp N0    &kp DEL
+   &kp GRAVE  &kp Q      &kp W     &kp E     &kp R           &kp T                &kp Y        &kp U           &kp I      &kp O     &kp P     &kp APOS
+   &kp TAB    &kp A      &kp S     &kp D     &kp F           &kp G                &kp H        &kp J           &kp K      &kp L     &kp SEMI  &kp RET
+   &kp LSHFT  &kp Z      &kp X     &kp C     &kp V           &kp B                &kp N        &kp M           &kp COMMA  &kp DOT   &kp FSLH  &kp UARW
+   &kp CAPS   &kp LCTRL  &kp LALT  &kp LGUI  &lt LSHFT BSPC  &lt 1 SPACE          &lt 2 SPACE  &lt RSHFT BSPC  &kp RCTRL  &kp RALT  &kp RGUI  &kp DARW
                         >;
                 };
                 lower_layer {
