@@ -2,6 +2,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&mt {
+    tapping-term-ms = <400>;
+};
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -18,7 +21,7 @@
    &kp GRAVE  &kp Q      &kp W     &kp E     &kp R           &kp T                &kp Y        &kp U           &kp I      &kp O     &kp P     &kp APOS
    &kp TAB    &kp A      &kp S     &kp D     &kp F           &kp G                &kp H        &kp J           &kp K      &kp L     &kp SEMI  &kp RET
    &kp LSHFT  &kp Z      &kp X     &kp C     &kp V           &kp B                &kp N        &kp M           &kp COMMA  &kp DOT   &kp FSLH  &kp UARW
-   &kp CAPS   &kp LCTRL  &kp LALT  &kp LGUI  &lt LSHFT BSPC  &lt 1 SPACE          &lt 2 SPACE  &lt RSHFT BSPC  &kp RCTRL  &kp RALT  &kp RGUI  &kp DARW
+   &kp CAPS   &kp LCTRL  &kp LALT  &kp LGUI  &mt LSHFT BSPC  &lt 1 SPACE          &lt 2 SPACE  &mt RSHFT BSPC  &kp RCTRL  &kp RALT  &kp RGUI  &kp DARW
                         >;
                 };
                 lower_layer {
